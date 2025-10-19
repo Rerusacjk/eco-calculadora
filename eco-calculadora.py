@@ -16,8 +16,8 @@ def conversion_renovable(kwh_total, porcentaje_renovable):
 
 # 3. Visualizador de emisiones por país (datos ficticios)
 def visualizar_emisiones():
-    paises = ['EE.UU.', 'China', 'India', 'Alemania', 'Brasil']
-    emisiones = [5000, 10000, 3000, 2000, 1500]  # en millones de toneladas
+    paises = ['EE.UU.', 'China', 'India', 'Alemania', 'Brasil', 'Egipto', 'Australia']
+    emisiones = [5000, 10000, 3000, 2000, 1500, 266, 436]  # en millones de toneladas
 
     plt.bar(paises, emisiones, color='green')
     plt.title("🌎 Emisiones de CO2 por país (estimadas)")
